@@ -24,7 +24,8 @@ public class Order {
     @OneToMany(mappedBy = "order")
     private List<OderItem> orderItems = new ArrayList<>();
 
-    private Delivaery delivery;
+    @OneToOne
+    private Delivery delivery;
 
     private LocalDateTime orderDate; //주문 시간
 
