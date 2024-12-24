@@ -120,8 +120,6 @@
 
 ### 엔티티의 생명주기, 영속성상태
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/357dd3c4-c19d-4333-a365-d1b07d96cb7d/5122d4d6-1fb6-4a3c-a6a7-2bd6e9af1c05/image.png)
-
 - **비영속 :** 영속성 컨텍스트와 전혀 관계가 없는 상태
     - 엔티티 객체를 생성하고 아직 저장하지 않은 순수한 객체 상태
     - 영속성 컨텍스트나 데이터베이스와는 전혀 관련이 없다
